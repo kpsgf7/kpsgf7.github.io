@@ -1,0 +1,41 @@
+html,body,img{
+	height: 100%;
+	width: 100%;
+	image-orientation: from-image;
+	overflow-x: hidden;
+}
+
+
+.title_bar {
+	margin: 0 auto;
+	padding:1%;
+	width: 60%;
+	height: auto;
+	/*border: 2px solid black;*/
+	border-bottom: 2px solid black;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title_bar img{
+	width: 25%;
+	height: auto;
+	min-height: 150px;
+	min-width: 150px;
+	border-radius: 50%;
+}
+
+.title_bar div{
+	border-left: 2px solid black;
+	height: 100%;
+	margin-left: 5%;
+	padding: 5%;
+}
+
+.card {
+	margin: 0 auto;
+	width: 60%;
+	height: auto;
+}
