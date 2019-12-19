@@ -1,41 +1,79 @@
 html,body{
 	height: 100%;
 	width: 100%;
-	image-orientation: from-image;
 	overflow-x: hidden;
+	margin:0;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
+	font-style: normal;
 }
 
 
-.title_bar {
-	margin: 0 auto;
-	padding:1%;
-	width: 60%;
-	height: auto;
-	/*border: 2px solid black;*/
-	border-bottom: 2px solid black;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+#panel_1{
+	background-image: url("images/panel_1.jpg");
 }
 
-.title_bar img{
-	width: 25%;
-	height: auto;
-	min-height: 150px;
-	min-width: 150px;
-	border-radius: 50%;
+#panel_2{
+	background-image: url("images/panel_2.jpg");
+}
+.panel {
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
 }
 
-.title_bar div{
-	border-left: 2px solid black;
-	height: 100%;
-	margin-left: 5%;
-	padding: 5%;
+.text_container{
+	/*margin:40% 40% 40% 40%;*/
+	max-width: 75%;
+	margin-top: 15%;
+	padding: 3%;
+	display: inline-block;
+	text-align: center;
+	font-size: 200%;
+	color:white;
+	background: rgba(0, 0, 0, .8);
+
 }
 
-.card {
-	margin: 0 auto;
-	width: 60%;
-	height: auto;
+div.nav_bar{
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	z-index: 2;
+  	background: rgba(0, 0, 0, .8);
 }
+
+ul.nav_bar{
+	list-style-type: none;
+ 	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+}
+
+li.nav_bar{
+	float: left;
+}
+
+li.nav_bar a{
+	display: block;
+ 	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+.image_set img{
+	width: 10%;
+	height: 10%;
+
+}
+
+h2 {
+	font-weight: normal;
+}
+
